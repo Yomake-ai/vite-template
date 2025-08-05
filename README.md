@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+# Yomake.ai Vite Template
 
-## Project info
+![Yomake.ai Logo](https://yomake.ai/logo.png)
 
-**URL**: https://lovable.dev/projects/148ebcc0-b79d-48aa-8994-0b5558441257
+A modern, SEO-optimized React template built specifically for **Yomake.ai** - the AI coder agent that helps makers, entrepreneurs, and developers build applications lightning fast.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **AI-Powered Development Ready** - Optimized for Yomake.ai integration
+- **Modern Tech Stack** - Vite, React 18, TypeScript, shadcn/ui
+- **SEO Optimized** - Comprehensive meta tags, structured data, and social sharing
+- **Beautiful UI** - Clean, modern design with glassmorphism effects
+- **Mobile First** - Fully responsive design for all devices
+- **Performance Focused** - Fast builds and optimized bundle size
 
-**Use Lovable**
+## 🛠️ Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/148ebcc0-b79d-48aa-8994-0b5558441257) and start prompting.
+This template is built with cutting-edge technologies:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **[Vite](https://vitejs.dev/)** - Lightning fast build tool
+- **[React 18](https://react.dev/)** - Modern React with hooks
+- **[TypeScript](https://typescriptlang.org/)** - Type-safe development
+- **[shadcn/ui](https://ui.shadcn.com/)** - Beautiful, accessible components
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first styling
+- **[Lucide React](https://lucide.dev/)** - Beautiful icons
+- **[React Router](https://reactrouter.com/)** - Client-side routing
+- **[React Query](https://tanstack.com/query)** - Server state management
 
-**Use your preferred IDE**
+## 🚀 Quick Start
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Get started with this template in minutes:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repository
+git clone https://github.com/Yomake-ai/vite-template.git
 
-Follow these steps:
+# Navigate to the project directory
+cd vite-template
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:5173](http://localhost:5173) in your browser to see the result.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📝 Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗️ Project Structure
 
-## What technologies are used for this project?
+```
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable UI components
+│   │   └── ui/            # shadcn/ui components
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions
+│   ├── pages/             # Page components
+│   └── main.tsx           # Application entry point
+├── index.html             # HTML template
+└── package.json           # Dependencies and scripts
+```
 
-This project is built with:
+## 🎨 Customization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This template is designed to be easily customizable:
 
-## How can I deploy this project?
+1. **Branding** - Update colors in `src/index.css` and `tailwind.config.ts`
+2. **Content** - Modify `src/pages/Index.tsx` for your specific use case
+3. **SEO** - Update meta tags in `index.html`
+4. **Components** - Add new shadcn/ui components as needed
 
-Simply open [Lovable](https://lovable.dev/projects/148ebcc0-b79d-48aa-8994-0b5558441257) and click on Share -> Publish.
+## 🤖 Yomake.ai Integration
 
-## Can I connect a custom domain to my Lovable project?
+This template is optimized for Yomake.ai's AI-powered development workflow:
 
-Yes, you can!
+- Pre-configured with best practices for AI code generation
+- Semantic HTML structure for better AI understanding
+- Component-based architecture for modular development
+- TypeScript support for enhanced AI assistance
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🚀 Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Deploy your application to popular platforms:
+
+**Vercel (Recommended)**
+```bash
+npm install -g vercel
+vercel
+```
+
+**Netlify**
+```bash
+npm run build
+# Upload dist/ folder to Netlify
+```
+
+**GitHub Pages**
+```bash
+npm run build
+# Deploy dist/ folder to gh-pages branch
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+- **Documentation**: [Yomake.ai Docs](https://docs.yomake.ai)
+- **Issues**: [GitHub Issues](https://github.com/Yomake-ai/vite-template/issues)
+- **Community**: [Discord](https://discord.gg/yomakeai)
+
+---
+
+Built with ❤️ by [Yomake.ai](https://yomake.ai) - Your AI Coder Agent for Makers
