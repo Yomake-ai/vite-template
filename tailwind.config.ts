@@ -10,6 +10,10 @@ export default {
 	],
 	prefix: "",
 	theme: {
+		fontFamily: {
+			sans: ['Geist', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+			mono: ['"Geist Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+		},
 		container: {
 			center: true,
 			padding: '2rem',
